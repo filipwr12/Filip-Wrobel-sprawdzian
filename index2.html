@@ -17,6 +17,7 @@
         background-color: grey;
         width: 100%;
         height: 10%;
+        text-align: center;
     }
     #box{
         width: 100%;
@@ -29,6 +30,7 @@
         margin-right: auto;
         float: left;
         background-color: pink;
+        font-size: 30px ;
     }
     #box2{
         width: 50%;
@@ -44,12 +46,14 @@
         margin-right: auto;
         float: left;
         background-color: rgba(69, 204, 132, 0.377);
+        text-align: center;
     }
     #box4{
         width: 50%;
         height: 50%;
         margin-left: auto;
         margin-right: auto;
+        font-size:   30px;
         float: left;
         background-color: rgb(159, 161, 241)
     }
@@ -57,6 +61,19 @@
         width: 100%;
         height: 10%;
         background-color: grey;
+        text-align: center;
+    }
+    #imie{
+        background-color: bisque;
+    }
+    #nazwisko{
+        background-color: bisque;
+    }
+    #email{
+        background-color: bisque;
+    }
+    #sumbit{
+        background-color: lightblue;
     }
 </style>
 <body>
@@ -67,23 +84,23 @@
             <div id="box">
               <div id="box1"> 
                 <ol>
-                    <li> Element 1 </li>
+                    <li> Element 1</li>
                     <li> Element 2 </li>
                     <li> Element 3 </li>
                     <li> Element 4 </li>
                 </ol>
               </div>
               <div id="box2">
-                <img width="100%" src="pies.jpg">
+                <img width="100%"  src="pies.jpg">
               </div>
               <div id="box3">
                 <form>
                     <label for="imie"><b>Podaj imię:</b></label> <br>
-                    <input type="text" id="imie" name="imie"> <br>
+                    <input type="text" id="imie" name="imie" placeholder="Imię"> <br>
                     <label for="nazwisko"> <b>Podaj nazwikso:</b></label> <br>
-                    <input type="text" id="nazwikso" name="nazwisko"> <br>
+                    <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko"> <br>
                     <label for="email"> <b>Podaj emaila:</b></label><br>
-                    <input type="email" name="email" id="email"> <br> <br>
+                    <input  type="email" name="email" id="email" placeholder="E-mail"> <br> <br>
                     <input type="submit" name="sumbit" id="sumbit" value="WYŚLIJ!!!!">
                 </form>
               </div>
